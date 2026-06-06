@@ -1,0 +1,40 @@
+{
+  "name": "canvas-jigsaw",
+  "version": "0.1.0",
+  "description": "Dependency-free canvas jigsaw puzzle engine with organic pieces and group snapping",
+  "type": "module",
+  "author": "Eugene Heo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugeoh/canvas-jigsaw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eugeoh/canvas-jigsaw/issues"
+  },
+  "homepage": "https://github.com/eugeoh/canvas-jigsaw#readme",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "demo": "node demo/server.js",
+    "pack:check": "npm pack --dry-run"
+  },
+  "keywords": [
+    "jigsaw",
+    "puzzle",
+    "canvas",
+    "game",
+    "javascript"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

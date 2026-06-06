@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>canvas-jigsaw demo</title>
+    <link rel="stylesheet" href="/demo/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div>
+                <p class="eyebrow">Open-source Canvas engine</p>
+                <h1>canvas-jigsaw</h1>
+            </div>
+            <div class="controls">
+                <label>
+                    Difficulty
+                    <select id="size">
+                        <option value="3">3 x 3</option>
+                        <option value="4" selected>4 x 4</option>
+                        <option value="6">6 x 6</option>
+                    </select>
+                </label>
+                <label class="upload">
+                    Choose image
+                    <input id="image" type="file" accept="image/*">
+                </label>
+                <button id="restart" type="button">Restart</button>
+            </div>
+        </header>
+
+        <section class="status" aria-live="polite">
+            <span id="progress">1 / 16 connected</span>
+            <span id="message">Drag matching pieces together.</span>
+        </section>
+
+        <div id="stage">
+            <canvas id="puzzle"></canvas>
+        </div>
+    </main>
+
+    <script type="module" src="/demo/main.js"></script>
+</body>
+</html>

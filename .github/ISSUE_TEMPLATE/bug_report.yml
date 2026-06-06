@@ -1,0 +1,41 @@
+name: Bug report
+description: Report reproducible engine or demo behavior
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Provide minimal code or steps that reproduce the issue.
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: Firefox 145
+    validations:
+      required: true
+  - type: input
+    id: operating-system
+    attributes:
+      label: Operating system
+      placeholder: macOS 15.5
+    validations:
+      required: true
+  - type: input
+    id: puzzle
+    attributes:
+      label: Puzzle configuration
+      description: Include rows, columns, image aspect ratio, and relevant options.
+      placeholder: 6 rows, 8 columns, 3:2 image, default options
+    validations:
+      required: true
