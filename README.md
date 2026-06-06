@@ -2,7 +2,7 @@
 
 A dependency-free browser jigsaw engine built on Canvas 2D. It generates organic interlocking pieces from shared Bezier seams and lets connected pieces move as rigid groups.
 
-I built this after making my own puzzle site and finding that most open-source browser jigsaws were old, application-specific, or limited to rectangular tiles. The goal is a small, reusable engine for realistic jigsaw interactions without requiring a UI framework.
+I built this after creating [Daily Pawzzles](https://dailypawzzles.com/index.html) and finding that most open-source browser jigsaws were old, application-specific, or limited to rectangular tiles. The goal is a small, reusable engine for realistic jigsaw interactions without requiring a UI framework.
 
 > This project is at an early `0.x` stage. The API is usable, but may change as the engine is tested in more applications and browsers.
 
